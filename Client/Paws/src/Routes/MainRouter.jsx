@@ -5,8 +5,8 @@ import AdminRouter from "./AdminRouter";
 import AuthRouter from "./AuthRouter";
 
 const MainRouter = () => {
-    const role = "user";
-    const token = "njsjnd";
+    const role ="user";
+    const token = "null";
   return (
     <BrowserRouter>
       {role === "user" && <UserRouter />}
@@ -17,3 +17,4 @@ const MainRouter = () => {
 };
 
 export default MainRouter;
+
