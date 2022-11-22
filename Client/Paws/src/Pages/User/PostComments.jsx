@@ -1,11 +1,15 @@
 import React from "react"
-import LoggedNavbar from "../../Components/LoggedNavBar/LoggedNavBar";
-import LoggedFooter from "../../Components/LoggedFooter/LoggedFooter";
+import LoggedNavbar from "../../Components/User/LoggedNavBar/LoggedNavBar";
+import LoggedFooter from "../../Components/User/LoggedFooter/LoggedFooter";
+import CardContainer from "../../Components/User/CardContainer/CardContainer";
+import CommentsContainer from "../../Components/User/CommentsContainer/CommentsContainer";
 
 const PostComments = () =>{
     return(
-        <div>
+        <div className="bg-background">
             <LoggedNavbar/>
+            <CardContainer />
+            <CommentsContainer />
             <LoggedFooter/>
 
         </div>

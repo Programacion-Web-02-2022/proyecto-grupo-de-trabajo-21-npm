@@ -1,7 +1,7 @@
 import React from "react";
-import Lobby from "../../Components/Container/Lobby/Lobby";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import Lobby from "../../Components/NoAuth/Container/Lobby/Lobby";
+import Footer from "../../Components/NoAuth/Footer/Footer";
+import Navbar from "../../Components/NoAuth/Navbar/Navbar";
 
 
 

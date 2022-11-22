@@ -5,7 +5,8 @@ import { NavLink } from "react-router-dom";
 class Anchor extends Component {
     render() {
         return(
-            <div className=" text-white ">
+           <div>
+                <div className=" text-white lg:hidden">
                <ul className=" flex flex-1 flex-row flex-wrap-nowrap gap-6 items-center">
                <li><NavLink to="/SocialService" className={({isActive}) => (isActive ? 'text-blue-500' : '')}> Servicio Social</NavLink> </li>
                    <li> <NavLink to="/About" className={({isActive}) => (isActive ? 'text-blue-500' : '')}> Nosotros</NavLink> </li>
@@ -16,6 +17,10 @@ class Anchor extends Component {
                </ul>
     
             </div>
+            <div>
+                
+            </div>
+           </div>
         )
     }
 }

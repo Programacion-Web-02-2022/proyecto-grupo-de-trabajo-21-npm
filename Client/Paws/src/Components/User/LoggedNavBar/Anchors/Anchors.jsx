@@ -6,7 +6,7 @@ import { FiUser } from "react-icons/fi";
 class Anchor extends Component {
     render() {
         return(
-            <div className=" text-white lg:hidden">
+            <div className=" text-white lg:hidden font-Dm">
                <ul className=" flex flex-1 flex-row flex-wrap-nowrap gap-6 items-center">
                <li><NavLink to="/SocialService" className={({isActive}) => (isActive ? 'text-blue-500' : '')}> Servicio Social</NavLink> </li>
                <li> <NavLink  to="/Events"  className={({isActive}) => (isActive ? 'text-blue-500' : '')}> Eventos</NavLink> </li>

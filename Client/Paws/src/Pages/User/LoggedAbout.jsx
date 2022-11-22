@@ -1,6 +1,6 @@
 import React from "react";
-import LoggedNavbar from "../../Components/LoggedNavBar/LoggedNavBar";
-import LoggedFooter from "../../Components/LoggedFooter/LoggedFooter";
+import LoggedNavbar from "../../Components/User/LoggedNavBar/LoggedNavBar";
+import LoggedFooter from "../../Components/User/LoggedFooter/LoggedFooter";
 
 const LoggedAbout = () => {
 

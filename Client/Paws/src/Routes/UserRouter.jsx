@@ -20,6 +20,7 @@ import NewDate from "../Pages/User/NewDate";
 import NewPost from "../Pages/User/NewPost";
 import PetProfile from "../Pages/User/PetProfile";
 import PostComments from "../Pages/User/PostComments";
+import PopularPost from "../Pages/User/PopularPost";
 
 
 
@@ -41,10 +42,13 @@ import PostComments from "../Pages/User/PostComments";
         <Route path="/NewPost" element={<NewPost />}>  </Route>
         <Route path="/PetProfile" element={<PetProfile />}>  </Route>
         <Route path="/PostComments" element={<PostComments />}>  </Route>
-        <Route path="*" element={<LoggedNotFound />}>  </Route>
         <Route path="/SocialService" element={<LoggedSocialService />}>  </Route>
         <Route path="/About" element={<LoggedAbout />}>  </Route>
         <Route path="/Events" element={<LoggedEvents />}>  </Route>
+        <Route path="/PopularPost" element={<PopularPost />}>  </Route>
+
+        <Route path="*" element={<LoggedNotFound />}>  </Route>
+
       </Routes>
 
     );

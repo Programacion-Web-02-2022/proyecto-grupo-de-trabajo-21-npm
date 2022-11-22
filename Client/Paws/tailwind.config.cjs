@@ -20,15 +20,30 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
       },
 
+      
+
       colors: {
         'backblue': '#1F232C',
         'newpink' : '#FC5C65',
-        'newblue' : '#3A6AD4'
+        'newblue' : '#3A6AD4',
+        'newpurple' : '#963EEF',
+        'newgolden' : '#F1A615',
+        'background' : '#E7E2E2'
       },
+
+      fontFamily:{
+        Lato : ['Lato'],
+        Dm : ['DM Sans']
+
+      },
+
+
       backgroundImage: {
         'dog': "url('./src/assets/backdog.jpg')",
       },
+      
      },
+     
    },
    plugins: [],
  };

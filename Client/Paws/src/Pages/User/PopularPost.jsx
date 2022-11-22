@@ -2,14 +2,15 @@ import React from "react"
 import LoggedNavbar from "../../Components/User/LoggedNavBar/LoggedNavBar";
 import LoggedFooter from "../../Components/User/LoggedFooter/LoggedFooter";
 
-const PetProfile = () =>{
+const PopularPost = () =>{
     return(
         <div>
             <LoggedNavbar/>
+            popular posts
             <LoggedFooter/>
         </div>
 
     )
 };
 
-export default PetProfile;
+export default PopularPost;
