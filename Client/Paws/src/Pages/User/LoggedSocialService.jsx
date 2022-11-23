@@ -5,7 +5,7 @@ import LoggedNavbar from "../../Components/User/LoggedNavBar/LoggedNavBar";
 const LoggedSocialService = () => {
 
     return(
-       <div> 
+       <div  className="bg-background"> 
           <LoggedNavbar/>
           <LoggedFooter />
        </div>

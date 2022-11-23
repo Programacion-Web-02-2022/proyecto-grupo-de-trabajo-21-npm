@@ -18,6 +18,7 @@ import DateHistory from "../Pages/User/DateHistory";
 import FavoritePost from "../Pages/User/FavoritePost";
 import NewDate from "../Pages/User/NewDate";
 import NewPost from "../Pages/User/NewPost";
+import NewPet from "../Pages/User/NewPet";
 import PetProfile from "../Pages/User/PetProfile";
 import PostComments from "../Pages/User/PostComments";
 import PopularPost from "../Pages/User/PopularPost";
@@ -35,6 +36,7 @@ import PopularPost from "../Pages/User/PopularPost";
         <Route path="/Profile" element={<Profile />}>  </Route>
         <Route path="/MyPost" element={<MyPost />}>  </Route>
         <Route path="/MyPets" element={<MyPets />}>  </Route>
+        <Route path="/NewPet" element={<NewPet />}>  </Route>
         <Route path="/Dates" element={<Dates />}>  </Route>
         <Route path="/DateHistory" element={<DateHistory />}>  </Route>
         <Route path="/FavoritePost" element={<FavoritePost />}>  </Route>

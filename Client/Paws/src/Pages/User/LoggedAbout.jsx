@@ -5,7 +5,7 @@ import LoggedFooter from "../../Components/User/LoggedFooter/LoggedFooter";
 const LoggedAbout = () => {
 
     return(
-       <div> 
+       <div  className="bg-background"> 
           <LoggedNavbar/>
           <LoggedFooter/>
        </div>

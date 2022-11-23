@@ -16,7 +16,7 @@ const Data = () => {
         <img src={imgURl} className="w-10 h-10 rounded-full" />
         <h1 className="font-Dm font-semibold text-2xl"> {username}</h1>
       </div>
-      <p className="text-justify my-1 font-Dm font-medium pl-10">
+      <p className="text-justify my-1 font-Dm font-medium">
         {cardDescription}
       </p>
       <a href={imgURl} target="_blank">

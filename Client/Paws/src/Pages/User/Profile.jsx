@@ -4,7 +4,7 @@ import LoggedFooter from "../../Components/User/LoggedFooter/LoggedFooter";
 
 const Profile = () =>{
     return(
-        <div>
+        <div  className="bg-background">
             <LoggedNavbar/>
             <LoggedFooter/>
         </div>

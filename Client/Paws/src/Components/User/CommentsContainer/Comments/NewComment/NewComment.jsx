@@ -8,7 +8,7 @@ const NewComment = () => {
           <textarea placeholder="Escribe tu comentario aqui..."  className="w-full border rounded p-2  h-40">
          
           </textarea>
-          <button type="submit" className=" bg-newblue hover:bg-blue-800 py-4 px-4 rounded w-1/5 text-white my-2 float-right	">
+          <button type="submit" className=" bg-newblue hover:bg-blue-800 py-4 px-4 rounded w-1/5 text-white my-2 float-right  sm:w-full	">
               Comentar
 
           </button>
