@@ -18,13 +18,13 @@ import {
         
         <Routes>
              
-             <Route path="/" element={<Home />}>  </Route>
-             <Route path="/Login" element={<Login />}>  </Route>
-        <Route path="/Register" element={<Register/>}>  </Route>
-        <Route path="/Events" element={<Events />}>  </Route>
-        <Route path="/SocialService" element={<SocialService />}>  </Route>
-        <Route path="/About" element={<About />}>  </Route>
-        <Route path="*" element={<NotFound />}>  </Route>
+            <Route path="/" element={<Home />}>  </Route>
+            <Route path="/Login" element={<Login />}>  </Route>
+            <Route path="/Register" element={<Register/>}>  </Route>
+            <Route path="/Events" element={<Events />}>  </Route>
+            <Route path="/SocialService" element={<SocialService />}>  </Route>
+            <Route path="/About" element={<About />}>  </Route>
+            <Route path="*" element={<NotFound />}>  </Route>
        
       </Routes> 
       

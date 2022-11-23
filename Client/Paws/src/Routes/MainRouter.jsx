@@ -6,11 +6,11 @@ import AdminRouter from "./AdminRouter";
 import AuthRouter from "./AuthRouter";
 
 const MainRouter = () => {
-    const role ="user";
-    const token = "null";
+    const role ="";
+    const token = "";
   return (
     <BrowserRouter>
-      {role === "user" && <AuthRouter />}
+      {role === "user" && <UserRouter />}
       {role === "null" && <AdminRouter />}
       {(!token || !role) && <AuthRouter />}
     </BrowserRouter>
