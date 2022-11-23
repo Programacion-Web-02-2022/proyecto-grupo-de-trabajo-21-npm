@@ -10,8 +10,8 @@ const MainRouter = () => {
     const token = "null";
   return (
     <BrowserRouter>
-      {role === "user" && <UserRouter />}
-      {role === "admin" && <AdminRouter />}
+      {role === "user" && <AuthRouter />}
+      {role === "null" && <AdminRouter />}
       {(!token || !role) && <AuthRouter />}
     </BrowserRouter>
   );

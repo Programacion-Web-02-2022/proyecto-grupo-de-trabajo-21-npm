@@ -6,9 +6,9 @@ import { NavLink } from "react-router-dom";
 
 const NotFound = () => {
     return(
-        <div>
+        <div className="bg-background">
             <Navbar/>
-            <div className=" w-2/4 flex flex-1 flex-col text-center text-white sm:w-full mx-auto my-5 " >
+            <div className=" w-2/4 flex flex-1 flex-col text-center text-white sm:w-full mx-auto my-5" >
               <FiFrown  className="m-auto h-[40vh] w-[40vw] stroke-white "/>
                 <h1 className="font-Dm text-4xl font-bold sm:text-3xl">Lo sentimos; esta pagina no está disponible</h1>
                 <h3 className="font-Dm text-2xl sm:text-lg">Es posible que el enlace esté roto o que se haya eliminado la página. Verifica que el enlace que quieres abrir es correcto. </h3>

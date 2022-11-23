@@ -9,9 +9,11 @@ const Lobby = () => {
                 Manten al dia el registro medico de tus mascotas, gestiona citas y más
             </p>
 
-            <NavLink  to="/Register" > <button className=" bg-newblue hover:bg-blue-800 py-4 px-4 rounded mx-auto ">
-                Registrate ahora!
-            </button></NavLink>
+            <NavLink  to="/Register" > 
+                <button className=" bg-newblue hover:bg-blue-800 py-4 px-4 rounded mx-auto ">
+                    Registrate ahora!
+                </button>
+            </NavLink>
             
         </section>
     )
