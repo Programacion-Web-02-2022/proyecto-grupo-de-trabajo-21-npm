@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../Components/NoAuth/Footer/Footer";
 import Navbar from "../../Components/NoAuth/Navbar/Navbar";
-import AboutUs from "../../Components/NoAuth/Container/AboutUs/AboutUs";
+import AboutUs from "../../Components/NoAuth/AboutUs/AboutUs";
 
 const About = () => {
 
