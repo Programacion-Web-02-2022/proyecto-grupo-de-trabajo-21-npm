@@ -7,7 +7,7 @@ const Form = () => {
           <form className="flex flex-1 flex-col p-3 m-3 gap-1 w-full font-Dm">
             <label className="my-3">Especie</label>
 
-            <select required className="w-1/4" defaultValue="DEFAULT">
+            <select required className="w-1/4 sm:w-full" defaultValue="DEFAULT">
             <option value="DEFAULT" disabled >Select something...</option>
             <option value="Perro">Perro</option>
             <option value="Gato">Gato</option>
@@ -27,7 +27,7 @@ const Form = () => {
          
           </textarea>
             <label className="my-3">Color de pelo </label>
-            <select required className="w-1/4" defaultValue="DEFAULT">
+            <select required className="w-1/4 sm:w-full" defaultValue="DEFAULT">
             <option value="DEFAULT" disabled >Select something...</option>
             <option value="Perro">Negro</option>
             <option value="Gato">Gris</option>
@@ -40,7 +40,7 @@ const Form = () => {
 
 
             <label className="my-3">Sexo </label>
-            <select required className="w-1/4" defaultValue="DEFAULT">
+            <select required className="w-1/4  sm:w-full" defaultValue="DEFAULT">
             <option value="DEFAULT" disabled>Select something...</option>
             <option value="Macho">Macho</option>
             <option value="Hembra">Hembra</option>
