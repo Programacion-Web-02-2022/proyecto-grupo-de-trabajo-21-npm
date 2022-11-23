@@ -10,6 +10,11 @@ const Blog = () =>{
            <LoggedNavbar/>
            <BlogOptions />
            <CardContainer />
+           <CardContainer />
+           <CardContainer />
+           <CardContainer />
+           <CardContainer />
+           <CardContainer />
            <LoggedFooter/>
            
         </div>

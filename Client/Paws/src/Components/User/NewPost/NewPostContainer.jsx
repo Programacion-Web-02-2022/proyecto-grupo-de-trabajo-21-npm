@@ -3,7 +3,7 @@ import Form from './NewPostComponents/Form'
 
 const NewPostContainer = () => {
     return(
-        <div className=" m-auto bg-white shadow-md my-5 px-5  rounded w-2/4  sm:w-full  "> 
+        <div className=" m-auto bg-white shadow-md my-5 px-5  rounded-3xl w-2/4  sm:w-full  "> 
             <Form/>
         </div>
     )

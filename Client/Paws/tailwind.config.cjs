@@ -26,7 +26,7 @@ module.exports = {
         'newblue' : '#3A6AD4',
         'newpurple' : '#963EEF',
         'newgolden' : '#F1A615',
-        'background' : '#E7E2E2'
+        'background' : '#6B7280'
       },
 
       fontFamily:{
