@@ -6,11 +6,11 @@ import FormControllers from "./FormControllers/FormControllers";
 
 const Form = () => {
     return(
-        <div className="bg-white px-10 py-20 rounded-3xl">
+        <div className="flex flex-col bg-white px-10 py-10 rounded-3xl">
             <h1 className="text-5xl">Iniciar sesion</h1>
             <p className="text-lg mt-4">Si ya tienes una cuenta registrada puedes iniciar sesion desde aquí!</p> 
 
-            <div className="flex flex-col mt-8 gap-y-4">
+            <div className=" flex flex-col mt-8 gap-y-2">
                 <div className="">
                     <div className="text-lg text-gray-800">Email</div>
                     <label className="relative block ">
@@ -19,8 +19,6 @@ const Form = () => {
                         </span>
                         <input className="w-full text-sm p-2 pl-5 pr-3 bg-transparent border-b border-gray-500 focus:outline-none" type="text" placeholder="Ingresa tu direccion de correo electronico" />
                     </label>
-                    
-                    
                         
                 </div>
 
@@ -47,7 +45,7 @@ const Form = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center text-white mt-20">
+                <div className="flex justify-center text-white mt-10">
                     <button className="bg-backblue hover:bg-gray-500 py-4 px-4 rounded-2xl w-full">
                         Iniciar sesion
                     </button>
