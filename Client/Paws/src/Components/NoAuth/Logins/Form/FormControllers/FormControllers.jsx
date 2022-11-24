@@ -1,9 +1,25 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 
 
 const FormControllers = () => {
     return (
         <div>
+             <div className="flex flex-row justify-between text-xs mt-8">
+                <div className="inline-flex gap-x-1">
+                    <input className="w-3 y-3" type="checkbox" />
+                    <label>Recordarme siempre</label>
+                </div>
+
+                <div className="">
+                    <a className="hover:text-newblue" href="#">Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+
+            <div className="flex justify-center text-white mt-10">
+                <NavLink to="/BlogAuth" className="bg-backblue hover:bg-gray-500 py-4 px-4 rounded-2xl w-full text-center"> Iniciar sesion</NavLink>
+            </div>
             
         </div>
     )
