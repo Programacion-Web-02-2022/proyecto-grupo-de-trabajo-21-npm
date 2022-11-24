@@ -24,6 +24,7 @@ import {
             <Route path="/Events" element={<Events />}>  </Route>
             <Route path="/SocialService" element={<SocialService />}>  </Route>
             <Route path="/About" element={<About />}>  </Route>
+            <Route path="/Blog" element={<Login />}>  </Route>
             <Route path="*" element={<NotFound />}>  </Route>
        
       </Routes> 
