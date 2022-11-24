@@ -11,6 +11,7 @@ import {
   import Events from "../Pages/NoAuth/Events";
   import SocialService from "../Pages/NoAuth/SocialService";
   import About from "../Pages/NoAuth/About";
+  import CompletedRegister from "../Pages/NoAuth/CompletedRegister";
 
 
   const AuthRouter = () => {
@@ -25,6 +26,7 @@ import {
             <Route path="/SocialService" element={<SocialService />}>  </Route>
             <Route path="/About" element={<About />}>  </Route>
             <Route path="/Blog" element={<Login />}>  </Route>
+            <Route path="/CompletedRegister" element={<CompletedRegister />}>  </Route>
             <Route path="*" element={<NotFound />}>  </Route>
        
       </Routes> 

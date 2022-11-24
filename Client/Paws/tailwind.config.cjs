@@ -39,6 +39,7 @@ module.exports = {
       backgroundImage: {
         'dog': "url('./src/assets/backdog.jpg')",
         'rabbit': "url('./src/assets/backrabbit.jpg')",
+        'dog1': "url('./src/assets/backgrouddog1.jpg')",
       },
       
      },

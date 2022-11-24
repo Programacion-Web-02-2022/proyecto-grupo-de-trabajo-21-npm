@@ -3,6 +3,7 @@ import {HiMail} from "react-icons/hi";
 import {HiLockClosed} from "react-icons/hi";
 import {HiUser} from "react-icons/hi";
 import {HiEyeOff} from "react-icons/hi";
+import RegisterFormControllers from "./RegisterFormControllers/RegisterFormControllers";
 
 const RegisterForm = () => {
     return (
@@ -63,12 +64,7 @@ const RegisterForm = () => {
                     
                 </div>
 
-                <div className="flex justify-center text-white mt-10">
-                    <button className="bg-backblue hover:bg-gray-500 py-4 px-4 rounded-2xl w-full">
-                        Registrarse
-                    </button>
-
-                </div>
+                <RegisterFormControllers/>
 
          
             </div>
