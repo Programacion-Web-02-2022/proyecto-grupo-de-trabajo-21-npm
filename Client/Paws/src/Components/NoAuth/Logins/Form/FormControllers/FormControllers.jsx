@@ -13,7 +13,7 @@ const FormControllers = () => {
                 </div>
 
                 <div className="">
-                    <a className="hover:text-newblue" href="#">Olvidaste tu contraseña?</a>
+                    <NavLink to="/ForgetPass" className="hover:text-newblue ">¿Olvidaste tu contraseña?</NavLink>
                 </div>
             </div>
 
