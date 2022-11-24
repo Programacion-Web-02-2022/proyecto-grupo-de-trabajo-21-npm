@@ -1,5 +1,5 @@
 import React from "react";
-import AprovedControllers from "./AprovedControllers/AprovedControllers";
+import AprovedControllers from "./ApprovedControllers/ApprovedControllers";
 import {HiOutlineCheck} from "react-icons/hi";
 
 const Aproved = () => {
