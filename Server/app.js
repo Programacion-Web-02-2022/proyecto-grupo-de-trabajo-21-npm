@@ -1,6 +1,7 @@
 require('dotenv').config();
 const debug = require('debug')('api:main');
 const express = require('express');
+const cors = require('cors');
 const baseRouter = require('./router/base.router');
 
 const app = express();
@@ -9,6 +10,7 @@ require('./config/db');
 require('./config/passport');
 
 app.use(express.json());
+app.use(cors());
 
 app.use('/api', baseRouter);
 
