@@ -5,9 +5,9 @@ import Logins from "./../../Components/NoAuth/Logins/Logins";
 
 const Login = () => {
     return(
-        <div>
+        <div className="h-screen">
             <Navbar />
-                <div className="flex justify-end bg-rabbit bg-cover h-screen">
+                <div className="flex justify-end xl:justify-center bg-rabbit bg-cover h-screen">
                     <Logins />
                 </div>
             <Footer />

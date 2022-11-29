@@ -25,12 +25,12 @@ const RegisterForm = () => {
 
     return (
         <form onSubmit={handleSubmit} className="flex flex-col bg-white px-10 py-10 rounded-3xl">
-            <h1 className="text-5xl">Registrate</h1>
-            <p className="text-lg mt-4">Ingresa tus datos personales en el siguient formulario</p>
+            <h1 className="text-5xl xl:text-3xl">Registrate</h1>
+            <p className="text-lg xl:text-base mt-4">Ingresa tus datos personales en el siguient formulario</p>
             
             <div className="flex flex-col mt-8 gap-y-4">
                 <div className="">
-                    <div className="text-lg text-gray-800">Email</div>
+                    <div className="text-lg xl:text-base text-gray-800">Email</div>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiMail className="h-4 w-4 fill-background "/>
@@ -41,7 +41,7 @@ const RegisterForm = () => {
                 </div>
 
                 <div className="">
-                    <label className="text-lg text-gray-800">Usuario</label>
+                    <label className="text-lg xl:text-base text-gray-800">Usuario</label>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiUser className="h-4 w-4 fill-background "/>
@@ -52,7 +52,7 @@ const RegisterForm = () => {
                 </div>
 
                 <div className="">
-                    <label className="text-lg text-gray-800">Contraseña</label>
+                    <label className="text-lg xl:text-base text-gray-800">Contraseña</label>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiLockClosed className="h-4 w-4 fill-background "/>
@@ -67,7 +67,7 @@ const RegisterForm = () => {
                 </div>
 
                 <div className="">
-                    <label className="text-lg text-gray-800">Confirma la cntraseña</label>
+                    <label className="text-lg xl:text-base text-gray-800">Confirma la cntraseña</label>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiLockClosed className="h-4 w-4 fill-background "/>
@@ -81,7 +81,7 @@ const RegisterForm = () => {
                     
                 </div>
 
-                <div className="flex justify-center text-white mt-10">
+                <div className="flex justify-center text-white text-lg xl:text-base mt-10">
                     <button type="submit" className="bg-backblue hover:bg-gray-500 py-4 px-4 rounded-2xl w-full text-center"> Registrarse</button>
                 </div>
             </div>

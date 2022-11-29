@@ -6,9 +6,9 @@ import ForgetPass from "../../Components/NoAuth/ForgetPass/ForgetPass";
 const ForgetPassword = () => {
     return(
         
-        <div>
+        <div className="h-screen">
             <Navbar />
-            <div className="flex justify-center bg-dog bg-cover h-screen">
+            <div className="flex justify-center xl:justify-center bg-dog bg-cover h-screen">
                 <ForgetPass />
             </div>
             <Footer />

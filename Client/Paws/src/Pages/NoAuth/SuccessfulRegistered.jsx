@@ -5,9 +5,9 @@ import CompletedRegisters from "../../Components/NoAuth/CompletedRegisters/Compl
 
 const SuccessfulRegistered = () => {
     return(
-        <div>
+        <div className="h-screen">
             <Navbar />
-            <div className="flex justify-center bg-dog1 bg-cover bg-bottom h-screen ">
+            <div className="flex justify-center xl:justify-center bg-dog1 bg-cover bg-bottom h-screen ">
                 <CompletedRegisters />
             </div>
             <Footer />

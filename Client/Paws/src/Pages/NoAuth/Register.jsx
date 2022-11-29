@@ -5,9 +5,9 @@ import Registers from "../../Components/NoAuth/Registers/Registers";
 
 const Register = () => {
     return (
-        <div>
+        <div className="h-screen">
             <Navbar />
-            <div className="flex justify-end bg-rabbit bg-cover h-screen">
+            <div className="flex justify-end xl:justify-center bg-rabbit bg-cover h-screen">
                 <Registers />
             </div>
             <Footer />

@@ -4,7 +4,7 @@ import Verification from "./Verification/Verification";
 
 const ForgetPass = () => {
     return(
-        <div className="flex flex-col mx-20 justify-center w-2/6">
+        <div className="flex flex-col mx-20 justify-center w-2/6 xl:w-full">
             <Verification />
         </div>
     );

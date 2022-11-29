@@ -17,7 +17,7 @@ const FormControllers = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center text-white mt-10">
+            <div className="flex justify-center text-lg xl:text-base text-white mt-10">
                 <button type="submit" className="bg-backblue hover:bg-gray-500 py-4 px-4 rounded-2xl w-full text-center"> Iniciar sesion</button>
             </div>
             

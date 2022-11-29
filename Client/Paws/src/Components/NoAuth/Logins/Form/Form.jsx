@@ -28,12 +28,12 @@ const Form = () => {
     
     return(
         <form onSubmit={handleSubmit} className="flex flex-col bg-white px-10 py-20 rounded-3xl">
-            <h1 className="text-5xl">Iniciar sesion</h1>
-            <p className="text-lg mt-4">Si ya tienes una cuenta registrada puedes iniciar sesion desde aquí!</p> 
+            <h1 className="text-5xl xl:text-3xl">Iniciar sesion</h1>
+            <p className="text-lg xl:text-base mt-4">Si ya tienes una cuenta registrada puedes iniciar sesion desde aquí!</p> 
 
             <div className=" flex flex-col mt-8 gap-y-2">
                 <div className="">
-                    <div className="text-lg text-gray-800">Email</div>
+                    <div className="text-lg xl:text-base text-gray-800">Email</div>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiMail className="h-4 w-4 fill-background "/>
@@ -44,7 +44,7 @@ const Form = () => {
                 </div>
 
                 <div className="">
-                    <label className="text-lg text-gray-800">Contraseña</label>
+                    <label className="text-lg xl:text-base text-gray-800">Contraseña</label>
                     <label className="relative block ">
                         <span className="absolute inset-y-0 flex items-center">
                             <HiLockClosed className="h-4 w-4 fill-background "/>

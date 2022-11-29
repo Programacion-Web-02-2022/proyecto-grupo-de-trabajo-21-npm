@@ -7,7 +7,7 @@ import Navbar from "../../Components/NoAuth/Navbar/Navbar";
 
 const Home = () => {
     return(
-        <div className=" bg-dog bg-cover h-screen items-center">
+        <div className=" bg-dog bg-cover xl:justify-center h-screen items-center">
             <Navbar/>
            <Lobby />
            <Footer />
