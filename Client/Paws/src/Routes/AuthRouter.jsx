@@ -27,7 +27,7 @@ import {
             <Route path="/Events" element={<Events />}>  </Route>
             <Route path="/SocialService" element={<SocialService />}>  </Route>
             <Route path="/About" element={<About />}>  </Route>
-            <Route path="/Blog" element={<Login />}>  </Route>
+            <Route path="/Blog" element={<Blog />}>  </Route>
             <Route path="/BlogAuth" element={<Blog />}>  </Route>
             <Route path="/ForgetPass" element={<ForgetPassword />}>  </Route>
             <Route path="/CompletedRegister" element={<SuccessfulRegistered />}>  </Route>

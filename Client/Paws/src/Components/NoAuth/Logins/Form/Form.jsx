@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {HiMail} from "react-icons/hi";
 import {HiLockClosed} from "react-icons/hi";
+import { useNavigate } from 'react-router-dom';
+import { useRequest } from '../../../../hooks/useRequest';
 import FormControllers from "./FormControllers/FormControllers";
 
 
 const Form = () => {
+    const navigate = useNavigate();
+
+    const { data, isLoading, fetchApi } = useRequest('/user/login', 'POST');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const body = Object.fromEntries(new FormData(e.target));
+
+        await fetchApi(body);
+    }
+
+    useEffect(() => {
+        if (data && data.status === 200) {
+            const { token } = data.response;
+            localStorage.setItem('auth', token);
+            navigate('/Blog');
+        }
+    }, [data]);
+    
     return(
-        <div className="flex flex-col bg-white px-10 py-20 rounded-3xl">
+        <form onSubmit={handleSubmit} className="flex flex-col bg-white px-10 py-20 rounded-3xl">
             <h1 className="text-5xl">Iniciar sesion</h1>
             <p className="text-lg mt-4">Si ya tienes una cuenta registrada puedes iniciar sesion desde aquí!</p> 
 
@@ -17,7 +38,7 @@ const Form = () => {
                         <span className="absolute inset-y-0 flex items-center">
                             <HiMail className="h-4 w-4 fill-background "/>
                         </span>
-                        <input className="w-full text-sm p-2 pl-5 pr-3 bg-transparent border-b border-gray-500 focus:outline-none" type="text" placeholder="Ingresa tu direccion de correo electronico" />
+                        <input name="email" className="w-full text-sm p-2 pl-5 pr-3 bg-transparent border-b border-gray-500 focus:outline-none" type="text" placeholder="Ingresa tu direccion de correo electronico" />
                     </label>
                         
                 </div>
@@ -28,7 +49,7 @@ const Form = () => {
                         <span className="absolute inset-y-0 flex items-center">
                             <HiLockClosed className="h-4 w-4 fill-background "/>
                         </span>
-                        <input className="w-full text-sm p-2 pl-5 bg-transparent border-b border-gray-500 focus:outline-none" type="password" placeholder="Ingresa tu contraseña" />
+                        <input name="password" className="w-full text-sm p-2 pl-5 bg-transparent border-b border-gray-500 focus:outline-none" type="password" placeholder="Ingresa tu contraseña" />
                     </label>
                     
                 </div>
@@ -37,7 +58,7 @@ const Form = () => {
 
                 
             </div>
-        </div>
+        </form>
 
         
     )

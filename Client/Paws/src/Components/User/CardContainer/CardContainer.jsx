@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card/Card'
 
-const CardContainer = () =>{
+const CardContainer = ({ post }) =>{
     return(
         <div className="flex flex-1 flex-col  items-center">
-            <Card />
+            <Card post={post} />
         </div>
     )
 }

@@ -6,13 +6,16 @@ import AdminRouter from "./AdminRouter";
 import AuthRouter from "./AuthRouter";
 
 const MainRouter = () => {
+    const token = localStorage.getItem('auth');
     const role ="";
-    const token = "";
+
+    console.log(token);
+
   return (
     <BrowserRouter>
       {role === "user" && <UserRouter />}
       {role === "null" && <AdminRouter />}
-      {(!token || !role) && <AuthRouter />}
+      {(token == '' || !role) && <AuthRouter />}
     </BrowserRouter>
   );
 };

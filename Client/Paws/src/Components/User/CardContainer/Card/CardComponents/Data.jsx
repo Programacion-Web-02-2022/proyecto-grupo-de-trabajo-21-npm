@@ -5,7 +5,7 @@ const imgURl = "https://www.blogdelfotografo.com/wp-content/uploads/2019/01/olds
   const username = "El pepe";
   const Fecha = "21 de Noviembre de 2022";
 
-const Data = () => {
+const Data = ({ pet, text }) => {
 
   return (
     <div>
@@ -14,10 +14,10 @@ const Data = () => {
         </h3>
       <div className=" my-3 flex flex-row flex-nowrap items-center gap-2">
         <img src={imgURl} className="w-10 h-10 rounded-full" />
-        <h1 className="font-Dm font-semibold text-2xl"> {username}</h1>
+        <h1 className="font-Dm font-semibold text-2xl"> {pet}</h1>
       </div>
       <p className="text-justify my-1 font-Dm font-medium">
-        {cardDescription}
+        {text}
       </p>
       <a href={imgURl} target="_blank">
         <img src={imgURl} className="max-w-100 max-h-screen rounded m-auto" />
